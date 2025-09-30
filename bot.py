@@ -1,4 +1,4 @@
-usr/bin/env python3
+#!/usr/bin/env python3
 # b_fixed2_no_host_check.py - dış host kontrolü kaldırıldı (fetch_api_get artık host engellemez)
 # Çalıştır: python b_fixed2_no_host_check.py (proje kökünde ol — içinde templates/ ve static/ bulunmalı)
 
