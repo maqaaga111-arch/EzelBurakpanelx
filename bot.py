@@ -137,7 +137,7 @@ def set_security_headers(resp):
         "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; "
         "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; "
         "img-src 'self' data: blob: https:; "
-        "connect-src 'self' https://keneviznewapi.onrender.com  http://localhost http://127.0.0.1:5000;"
+        "connect-src 'self' http://apiservis.nabi.gt.tc http://localhost http://127.0.0.1:5000;"
     )
     return resp
 
